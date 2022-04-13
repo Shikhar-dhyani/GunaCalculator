@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: medium;
+}
+body {
+  font-family: "Muli", sans-serif;
+  background-color: #f6f7fb;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+.navbar,
+.navDetail,
+.threegun,
+.gun {
+  background-color: #ffd000ea;
+}
+
+.navbar {
+  min-height: 10vh;
+  min-width: 100vw;
+  text-align: center;
+  border-radius: 10px;
+}
+.navDetail {
+  height: 3vh;
+  line-height: 3vh;
+}
+.threegun {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.gun {
+  min-height: 5vh;
+  min-width: 33.3vw;
+  border: 2px solid rgb(196, 196, 18);
+  border-radius: 10px;
+  text-align: center;
+  line-height: 5vh;
+}
+.gun:hover {
+  cursor: pointer;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+}
+.left,
+.right {
+  min-width: 25vw;
+  overflow: hidden;
+  padding-top: 20px;
+  background-color: aqua;
+  border: 2px;
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+.imgs {
+  width: 20vw;
+  height: 25vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 50vw;
+  padding-top: 20px;
+  border: 2px solid orange;
+  border-radius: 10px;
+  background-color: #ffff00;
+}
+.details {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Name {
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.midContainer {
+  min-height: 60vh;
+  margin-bottom: 30px;
+}
+.options {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#btn {
+  background-color: green;
+  border: 2px solid green;
+  margin-left: 40%;
+  margin-top: 20px;
+  min-height: 30px;
+  font-size: large;
+  width: 80px;
+  cursor: pointer;
+}
+#btn:hover {
+  min-height: 50px;
+  width: 90px;
+  background-color: rgb(33, 214, 33);
+  border: 1px solid rgb(53, 223, 53);
+  margin-top: 10px;
+}
+.output {
+  display: none;
+  margin: auto;
+  width: 40vw;
+}
+.result {
+  background-color: blueviolet;
+  min-height: 10vh;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 4%;
+}
